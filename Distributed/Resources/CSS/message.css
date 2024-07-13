@@ -1,0 +1,58 @@
+::-webkit-scrollbar
+{
+	width:7px;
+	height:7px;
+}
+::-webkit-scrollbar-button:start:decrement,::-webkit-scrollbar-button:end:increment
+{
+	display:block;
+	height:0;
+	background-color:transparent;
+}
+::-webkit-scrollbar-track-piece
+{
+	background-color:#000000;
+	-webkit-border-radius:50px;
+	-webkit-border-bottom-right-radius:50px;
+	-webkit-border-bottom-left-radius:50px;
+}
+::-webkit-scrollbar-thumb:vertical
+{
+	background-color:#5E74D8;
+	-webkit-border-radius:8px;
+}
+::-webkit-scrollbar-thumb:horizontal
+{
+	background-color:#5E74D8;
+	-webkit-border-radius:8px;
+}
+::-webkit-scrollbar-thumb:hover 
+{
+	background-color:#A96902;
+}
+.info, .success, .warning, .error, .validation {
+margin: 10px 0px;
+padding:5px 5px 5px 65px;
+background-repeat: no-repeat;
+background-position: 10px center;
+}
+.info {
+color: #00529B;
+background-color: #BDE5F8;
+background-image: url('../Images/info.png');
+}
+.success {
+color: #4F8A10;
+background-color: #DFF2BF;
+background-image:url('../Images/success.png');
+}
+.warning {
+color: #9F6000;
+background-color: #FEEFB3;
+background-image: url('../Images/warning.png');
+}
+.error {
+color: #FC1717;
+background-color: #FFA1A1;
+background-image: url('../Images/error.png');
+}
